@@ -1,0 +1,28 @@
+<div class="container">
+  <h2>Contacto</h2>
+  <div class="container">
+    <ul class="list-group">
+        <li class="list-group-item"><i class="fas fa-phone-square fa-lg"></i> (011) 69408079</li>
+        <li class="list-group-item"><i class="fas fa-envelope fa-lg"></i> gastonveliez95@gmail.com</li>
+        <li class="list-group-item"><a href="https://www.linkedin.com/in/gaston-ariel-veliez-8881b2168/"><i class="fab fa-linkedin fa-lg"></i> Mi perfil en LinkedIn</a></li>
+      </ul>
+  </div>
+  <div class="container" style="padding-top: 20px">
+    <h4>Contacto directo</h4>
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit()">
+<!--      <div class="form-group">
+        <label for="emailInput">Email</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="Ingresa un mail de contacto" [(ngModel)]="formulario.email" name="email" required>
+      </div>-->
+      <div class="form-group">
+        <label for="asuntoInput">Asunto</label>
+        <input type="text" class="form-control" id="asuntoInput" placeholder="Ingresa el asunto del contacto" [(ngModel)]="formulario.asunto" name="asunto" required >
+      </div>
+      <div class="form-group">
+          <label for="textInput">Contenido</label>
+          <textarea class="form-control" id="textInput" rows="3" [(ngModel)]="formulario.mensaje" name="mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+</div>
