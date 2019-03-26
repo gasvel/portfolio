@@ -2,14 +2,47 @@
     height: 500px;
  }
 
+ .carInfo{
+     background-color: rgba(200, 237, 234, 0.5) ;
+ }
+
  .infoCV{
     font-family: 'Oswald', sans-serif;
  }
 
  h4{
-     color: aquamarine;
+     color: black;
+     font-family: 'Lato', sans-serif;
  }
 
  h3{
-     color: aquamarine;
+     color: black;
+     font-family: 'Lato', sans-serif;
  }
+
+ .seccion{
+    font-family: 'Oswald', sans-serif;
+    color: #5cb85c;
+ }
+
+
+
+ .contentSeccion{
+    font-family: 'Oswald', sans-serif;
+ }
+
+ .imgSkill{
+     margin: 10px;
+     height: 50px;
+     width: 50px;
+ }
+
+ .imgSkillRect{
+    margin: 10px;
+    height: 50px;
+    width: 80px;
+}
+
+.imgCarr{
+    max-height: 500px;
+}
