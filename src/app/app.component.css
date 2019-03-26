@@ -2,3 +2,14 @@ nav{
     font-family: 'Lato', sans-serif;
 
 }
+
+.footer{
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
